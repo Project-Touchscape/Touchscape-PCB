@@ -4465,7 +4465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FDS6680A"
+		(property "Value" "MCQ15N10YA"
 			(at 116.84 93.9799 0)
 			(effects
 				(font
@@ -4474,7 +4474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Touchpoint:SOIC127P600X175-8N"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 111.76 92.71 0)
 			(effects
 				(font

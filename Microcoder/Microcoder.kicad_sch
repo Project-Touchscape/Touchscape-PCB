@@ -1147,7 +1147,7 @@
 		(uuid "0c416189-3532-4650-be9f-4ffd68fb8b5b")
 	)
 	(label "SDA"
-		(at 115.57 39.37 180)
+		(at 115.57 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1167,7 +1167,7 @@
 		(uuid "a6bac7bc-b930-47f7-ba4a-ef304dc4d9fb")
 	)
 	(label "SCL"
-		(at 115.57 41.91 180)
+		(at 115.57 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1946,7 +1946,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 36.83 270)
+		(at 115.57 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1955,7 +1955,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6d1439a-1bc8-48d3-b6ca-0237dbdaa47d")
 		(property "Reference" "#PWR0110"
-			(at 109.22 36.83 0)
+			(at 109.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1964,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 36.8299 90)
+			(at 111.76 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +1973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 36.83 0)
+			(at 115.57 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +1982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 36.83 0)
+			(at 115.57 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,7 +1991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 36.83 0)
+			(at 115.57 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2291,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 115.57 34.29 90)
+		(at 115.57 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2300,7 +2300,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe7abb20-7427-4be6-9c00-613cc2c7256c")
 		(property "Reference" "#PWR0109"
-			(at 119.38 34.29 0)
+			(at 119.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2309,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 111.76 34.2899 90)
+			(at 111.76 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 34.29 0)
+			(at 115.57 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 34.29 0)
+			(at 115.57 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 34.29 0)
+			(at 115.57 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1078,16 +1078,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 35.56) (xy 78.74 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c458597-cc48-45df-a993-87d9d95e0d99")
-	)
-	(wire
-		(pts
 			(xy 76.2 38.1) (xy 73.66 38.1)
 		)
 		(stroke
@@ -1585,6 +1575,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 73.66 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "607af252-4680-433b-a539-caedc80863af")
+		(property "Reference" "#PWR0103"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b4af52a-8995-4553-a12e-b36d2f241514")
+		)
+		(instances
+			(project ""
+				(path "/e16511bf-512b-475d-aead-9861d1dac631"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Touchstone:AS5600-ASOT")
 		(at 43.18 35.56 0)
 		(unit 1)
@@ -1744,72 +1801,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 78.74 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68141812-34ef-423c-b11a-3d5bd1f3a712")
-		(property "Reference" "#PWR0103"
-			(at 78.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 78.74 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 78.74 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea5c77de-82af-4150-a41c-fa27c3d9cb80")
-		)
-		(instances
-			(project "Hydra_Encoder"
-				(path "/e16511bf-512b-475d-aead-9861d1dac631"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 91.44 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1869,76 +1860,6 @@
 			(project "Hydra_Encoder"
 				(path "/e16511bf-512b-475d-aead-9861d1dac631"
 					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 78.74 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b23c9f52-f8ff-4e10-9f22-ea4a2658f9c1")
-		(property "Reference" "R103"
-			(at 81.28 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 81.28 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.962 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2dca554-de0e-4fa6-b137-80a8f4d4519b")
-		)
-		(pin "2"
-			(uuid "5eb25016-5d4f-4a47-8337-44bef2df80ba")
-		)
-		(instances
-			(project "Hydra_Encoder"
-				(path "/e16511bf-512b-475d-aead-9861d1dac631"
-					(reference "R103")
 					(unit 1)
 				)
 			)

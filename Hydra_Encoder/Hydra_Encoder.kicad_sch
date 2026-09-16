@@ -1459,6 +1459,12 @@
 		(uuid "767bb219-076e-440f-9207-4c444ef474d3")
 	)
 	(junction
+		(at 78.74 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fdffd0e-bc37-4289-aa17-51a1d07b8cbb")
+	)
+	(junction
 		(at 83.82 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1475,12 +1481,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b58e1e7e-4dd6-42c5-b0f4-19a2dca57add")
-	)
-	(junction
-		(at 78.74 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc50c864-bfce-4cfd-b963-b739381344af")
 	)
 	(wire
 		(pts
@@ -1654,7 +1654,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 78.74 39.37 90)
+		(at 78.74 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1663,7 +1663,7 @@
 		(fields_autoplaced yes)
 		(uuid "03a10f19-e7c5-4d3e-84fc-91780af2334c")
 		(property "Reference" "JP101"
-			(at 81.28 38.0999 90)
+			(at 81.28 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1672,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 81.28 40.6399 90)
+			(at 81.28 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1681,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 78.74 39.37 0)
+			(at 78.74 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 39.37 0)
+			(at 78.74 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1699,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 78.74 39.37 0)
+			(at 78.74 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2767,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 31.75 0)
+		(at 78.74 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2776,7 +2776,7 @@
 		(fields_autoplaced yes)
 		(uuid "b23c9f52-f8ff-4e10-9f22-ea4a2658f9c1")
 		(property "Reference" "R102"
-			(at 81.28 30.4799 0)
+			(at 81.28 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2785,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 81.28 33.0199 0)
+			(at 81.28 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2794,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.962 31.75 90)
+			(at 76.962 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 31.75 0)
+			(at 78.74 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2812,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 31.75 0)
+			(at 78.74 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
